@@ -1,0 +1,3 @@
+# Handling Null Values in JavaScript Addition
+
+This repository demonstrates a common issue encountered when handling null values in JavaScript functions. The `bug.js` file shows a function that directly returns 0 when null is encountered. While this approach works, it might hide potential errors.  A better approach is shown in `bugSolution.js` which utilizes error handling to gracefully deal with invalid inputs.
